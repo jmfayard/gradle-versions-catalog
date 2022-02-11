@@ -1,7 +1,7 @@
 # Example from https://docs.gradle.org/current/userguide/platforms.html
 
 [versions]
-groovy = "3.0.5"
+groovy = "3.0.4"
 checkstyle = "8.37"
 
 [libraries]
