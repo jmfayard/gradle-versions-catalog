@@ -13,7 +13,8 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.1'
     implementation 'com.meltmedia.jackson:jackson-crypto:0.2.0'
-    implementation 'com.voodoodyne.jackson.jsog:jackson-jsog:1.1.2'
+    implementation BuildSrc.jacksonJsog
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0-native-mt'
     testImplementation 'org.jetbrains.kotlin:kotlin-test-common:1.6.0'
+    implementation libs.groovy.core
 }
