@@ -1,6 +1,14 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenLocal()
+        maven("https://s01.oss.sonatype.org/content/repositories/snapshots")
+    }
+}
+
 plugins {
     // See https://jmfayard.github.io/refreshVersions
-    id("de.fayard.refreshVersions") version "0.40.1"
+    id("de.fayard.refreshVersions") version "0.40.2-SNAPSHOT"
 
     // See https://dev.to/jmfayard/the-one-gradle-trick-that-supersedes-all-the-others-5bpg
     // See https://docs.gradle.com/enterprise/gradle-plugin/
