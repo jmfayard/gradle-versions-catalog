@@ -11,10 +11,10 @@ repositories {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
-    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.1'
-    implementation 'com.meltmedia.jackson:jackson-crypto:0.2.0'
+    implementation libs.jackson.databind
+    implementation libs.jackson.crypto
     implementation BuildSrc.jacksonJsog
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0-native-mt'
-    testImplementation 'org.jetbrains.kotlin:kotlin-test-common:1.6.0'
+    implementation KotlinX.coroutines.core
+    testImplementation Kotlin.test.common
     implementation libs.groovy
 }
